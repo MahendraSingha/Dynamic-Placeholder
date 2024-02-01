@@ -20,6 +20,22 @@ function App() {
     return () => { clearInterval(timer) }
   }, [])
 
+  // useEffect(() => {
+  //   var s = ["Dancing", "Swimming", "Singing"];
+  //   var i = 0;
+  //   function loop() {
+  //     console.log(s[i], "hobby");
+  //     document.getElementById("target").placeholder = s[i];
+  //     setTimeout(loop, 3000); // call myself in 3 seconds time if required
+  //     if (i === s.length - 1) {
+  //       i = 0;
+  //     } else {
+  //       i++;
+  //     }
+  //   }
+  //   loop();
+  // }, []);
+
 
 
   return (
